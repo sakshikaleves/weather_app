@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border:none;
+    outline: none;
+    font-family: cursive;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 240, 232);
+
+
+}
+.container{
+    width: 600px;
+    height: min-content;
+    background: linear-gradient(70deg, rgb(250, 250, 177), #ff6f61);
+    /* background-color: rgb(244, 182, 13); */
+    border-radius: 50px;
+    margin: 20px;
+    padding: 28px;
+}
+
+.weather_container {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.search-box{
+    width: 100%;
+    height: min-content;
+    display: flexbox;
+    align-items: center;
+}
+.search-box input {
+    width: 84%;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: black;
+    background-color: white;
+    padding: 12px 12px;
+    border-radius: 50px;
+   margin-bottom: 20px;
+}
+.search-box button {
+    width: 46px;
+    height: 46px;
+    background-color:white;
+    color: black;
+    border-radius: 50px;
+}
+.search-box button:hover{
+    colour:white;
+    background-color: rgb(230, 16, 16);
+}
+.weather-body{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 150px;
+}
+
+
+
+
+/* Add this to your external CSS stylesheet (style.css) */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px; 
+   margin-left: 165px;
+    background-color: #f0f0f0; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+}
+
+.image-container img {
+    max-width: 100%; /* Make the image responsive to the container's width */
+    max-height: 100%; /* Make the image responsive to the container's height */
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+
+.weather-box .temperature sup{
+    font-size: 20px;
+    position: absolute;
+    font-weight: 600;
+    font-size: 20px;
+}
+.weather-box{
+    margin-block: 50px;
+    text-align: center;
+    background-color: rgb(27, 226, 226);
+
+}
+.weather-box .temperature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 800;
+    position: relative;
+
+}
+
+.weather-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ margin-top: 30px;   
+}
+.humidity, .wind
+{
+    display: flex;
+    align-items: center;
+}
+.humidity{
+    margin-left: 600px;
+}
+.wind{
+    margin-right: 20px;
+}
+.weather-details .text{
+    margin-left: 20px;
+    font-size: 25px;
+}
+.text span{
+    font-size: 20px;
+    font-weight: 700;
+}
